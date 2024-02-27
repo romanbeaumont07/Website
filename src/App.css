@@ -10,5 +10,17 @@
 }
 
 .aboutMe {
-  color: #888;
+  color: #FFFFFF;
+}
+
+.button {
+  fill: black;
+}
+
+.header {
+  font-size: 70px;
+}
+
+.header:hover {
+  transform: scale(125%);
 }
