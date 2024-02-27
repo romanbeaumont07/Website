@@ -1,9 +1,7 @@
+/* eslint-disable react/no-unescaped-entities */
 import { useState } from 'react'
 import './App.css'
 import Button from '@mui/material/Button';
-
-
-
 
 function App() {
 
@@ -18,7 +16,7 @@ function App() {
       </div>
       <h1 className='header'>About Me!</h1>
       <p className="aboutMe">
-       Hi! My name is Roman. I'm a 17 year old aspiring web developer!
+       Hi! My name is Roman. I'm an aspiring web developer! <br /> Aside from coding I play a lot of different instruments: baritone, tuba, trumpet, trombone, guitar, and piano to name a few.
       </p>
 
       <div className="card">
@@ -47,7 +45,6 @@ function App() {
           My Youtube
         </Button>
       </div>
-      
     </>
   )
 }
