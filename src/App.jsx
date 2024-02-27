@@ -7,7 +7,7 @@ function App() {
 
   const [count, setCount] = useState(0)
   if(count == 100){
-    window.alert("100 Click!!!")
+    window.location.href = 'https://youtu.be/xvFZjo5PgG0?si=cB68LFv3985HFJkt';
   }
   return (
     
