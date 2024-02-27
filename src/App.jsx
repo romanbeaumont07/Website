@@ -2,12 +2,14 @@
 import { useState } from 'react'
 import './App.css'
 import Button from '@mui/material/Button';
+import './Rick.mp3';
 
 function App() {
-
+  const audio = new Audio('src/Rick.mp3')
   const [count, setCount] = useState(0)
   if(count == 100){
-    window.location.href = 'https://youtu.be/xvFZjo5PgG0?si=cB68LFv3985HFJkt';
+   window.alert("100 Clicks!!");
+   audio.play();
   }
   return (
     
